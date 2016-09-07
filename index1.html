@@ -67,51 +67,51 @@
 
 
 <form action="/my-handling-form-page" method="post">
+<fieldset>
+
+    <legend>Registration</legend>
+  <br>
+    <H2>Personal Details</H2>
+    <br><br>
+
     <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name" />
     </div>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_mail" />
+   <div>
+        <label for="email">Email:</label>
+        <input type="email" id="mail" name="user_mail" value="email address" />
+    </div>
+     <div>
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="telephone" name="user_telephone" value="Telephone no." />
     </div>
 
     <div>
         <label for="password">Password:</label>
         <input type="password" id="password" name="user_password" />
     </div>
-    <div>
+   <div>
         <label for="website">Website:</label>
-        <input type="url" name="user_website"/>
+        <input type="url" name="user_website" value="Website"/>
     </div>
 
     <div class="button">
         <button type="submit">Submit</button>
     </div>
+
+
 </form>
+
+  
+
+   
 
     
-
-    <form action="/my-handling-form-page" method="post">
-  <fieldset>
-  <legend>Registration</legend>
-  <br>
-    <H2>Personal Details</H2>
-    <br><br>
-    <div>
-        <label for="email">Email:</label>
-        <input type="email" id="mail" name="user_mail" value="email address" />
-    </div>
-   <div>
-        <label for="tel">Telephone:</label>
-        <input type="tel" id="telephone" name="user_telephone" value="Telephone no." />
-    </div>
-     <div>
-        <label for="website">Website:</label>
-        <input type="url" name="user_website" value="Website"/>
-    </div>
+  
+   
   </fieldset>
-</form>
+
 
    </body>
 
